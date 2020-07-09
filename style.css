@@ -1,0 +1,345 @@
+body{
+font-family:'メイリオ','Hiragino Kaku Gothic Pro',sans-serif;
+background-color: #ffffff;
+margin:0 auto;
+width:1200px
+}
+
+h1{
+font-size:20px;
+font-family:'Chango',cursive;
+width:100%;
+margin-left:auto;
+margin-right:auto;
+}
+
+h2{
+font-size:20px;
+font-family:'Chango',cursive;
+margin-left:auto;
+margin-right:auto;
+}
+
+p{
+line-height:1.5
+}
+
+/*ヘッダー*/
+div#headerwrap{
+position: relative;
+}
+
+#svg-bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+header {
+background-color:#ffffff;
+box-shadow:0 0 7px #aaaaaa;
+padding:5px;
+margin-bottom:30px
+}
+
+/*ナヴィゲーション*/
+nav ul {
+list-style-type:none;
+}
+
+nav li{
+display:inline;
+font-size:12px;
+border-right: solid 1px #aaaaaa;
+padding-left: 10px;
+padding-right: 10px
+}
+
+nav li:first-child{
+border-left:solid 1px #aaaaaa
+}
+
+nav{
+width: 900PX;
+margin-left: auto;
+margin-right:auto;
+text-align:right;
+margin-top:-70px;
+}
+
+nav a{
+color:#000000;
+text-decoration: none
+}
+
+/*ヘッダー下写真*/
+div#topcontent{
+background-image: url(topcontent.jpg);
+background-size: cover;
+text-align:center;
+padding-top:200px;
+padding-bottom:20px;
+height:150px;
+}
+
+
+/*左側コンテンツ*/
+div#left{
+width:250px;
+background-color:#ffffff;
+float:left;
+margin:10px;
+}
+
+div#iconwap{
+text-align:center;
+}
+
+.icon{
+display:inline-block;
+margin:12px;
+}
+
+.icon a{
+color:#000000;
+}
+
+div#line{
+margin-bottom:10px
+}
+
+div#allmenu{
+margin-bottom:10px
+}
+
+div#acecs{
+border:solid 1px #aaaaaa;
+margin-bottom:10px
+}
+
+div#acecs p{
+padding-left:10px;
+}
+
+/*右側コンテンツ*/
+
+div#right{
+width:910px;
+float:right;
+margin:10px;
+}
+
+div#news{
+background-color:#ffffff;
+margin-bottom:10px;
+border:solid 1px #aaaaaa;
+border-radius:20px;
+}
+
+div#news li{
+list-style-type:none;
+text-align:left;
+}
+
+
+div#main{
+background-color:#ffffff;
+border:solid 1px #aaaaaa;
+border-radius:20px;
+padding:10px
+}
+
+div#main img{
+padding:20px
+}
+
+div#main p{
+padding:20px
+}
+
+/*リンクページ*/
+section{
+margin-bottom:10px;
+padding-bottom:10px;
+width:1200px;
+background-color:#ffffff;
+}
+
+section h1{
+background-color:#aaaaaa;
+width:1200px;
+}
+
+/*お知らせページ*/
+time{
+font-weight:bold
+}
+
+/*メニュー*/
+.menucategory{
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+}
+.menucategory:before, .menucategory:after {
+  border-top: 1px solid;
+  content: "";
+  width: 20em;
+}
+.menucategory:before {
+  margin-right: 1em;
+}
+.menucategory:after {
+  margin-left: 1em;
+}
+.menuimg{
+float:left;
+margin-right:20px;
+margin-left:20px
+}
+
+.menutext{
+padding:10px
+}
+
+
+.menuname p{
+font-family:'TsukuOldGothicStd-B';
+font-size: 20px
+}
+
+.read p{
+font-family:'TsukuOldGothicStd-B';
+font-size: 5px
+}
+
+.menu{
+margin:10px;
+}
+
+table.menuwap{
+margin-top:0;
+margin:0 auto;
+width:910px;
+border-spacing: 0;
+text-align: center;
+background-color:#ffffff; color: #000000; 
+}
+
+table.menuwap td{
+width:303px;
+}
+
+.menuintroduction{
+text-align: center;
+}
+
+/*店舗情報*/
+
+.storeimg{
+float:left;
+margin-right:20px;
+margin-left:20px
+}
+
+.groupwap{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.groupwap:before, .groupwap:after {
+  border-top: 1px solid;
+  content: "";
+  width: 25em;
+}
+.groupwap:before {
+  margin-right: 1em;
+}
+.groupwap:after {
+  margin-left: 1em;
+}
+
+.companywap{
+  clear:left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.companywap:before, .companywap:after {
+  border-top: 1px solid;
+  content: "";
+  width: 25em; 
+}
+.companywap:before {
+  margin-right: 1em;
+}
+.companywap:after {
+  margin-left: 1em;
+}
+
+/*リクルート*/
+div#recruitwap{
+background-color:#ffffff;
+}
+
+div#recruit{
+margin-bottom:0;
+background-image: url(recruit.jpg);
+background-size: cover;
+text-align:center;
+}
+
+div#recruittext{
+background-color:rgba(255,255,255,0.5);
+width:1200px;
+padding-top:200px;
+padding-bottom:50px
+}
+
+div#recruit p{
+text-align:center;
+font-size:12px;
+margin-left:10px
+}
+
+div#arbeit{
+margin-top:10px;
+border-top:solid 1px #aaaaaa;
+}
+
+/*会社概要*/
+section table{
+margin-top:50px;
+background-color:#ffffff;
+border:solid 1px #aaaaaa;
+margin-left:auto;margin-right:auto;
+}
+section table th{
+background-color:#ffffff;
+border:solid 1px #aaaaaa;
+}
+
+section table td{
+background-color:#ffffff;
+border:solid 1px #aaaaaa;
+}
+
+section table ul{
+background-color:#ffffff;
+list-style-type:decimal;
+}
+
+
+/*フッター*/
+footer{
+width:1180px;
+text-align:left;
+padding:20px;
+clear:both;
+margin-top:15px;
+background-color:#ffffff;
+border-top:solid 1px #aaaaaa;
+}
