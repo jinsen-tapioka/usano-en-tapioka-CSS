@@ -1,0 +1,200 @@
+body{
+font-family:'メイリオ','Hiragino Kaku Gothic Pro',sans-serif;
+background-image: url(back.jpg);
+margin:0 auto;
+width:1200px
+}
+
+h1{
+font-size:20px;
+font-family:'Chango',cursive;
+width:100%;
+margin-left:auto;
+margin-right:auto;
+}
+
+p{
+line-height:1.5
+}
+
+div#topcontent{
+margin-bottom:0;
+background-image: url(topcontent.jpg);
+background-size: cover;
+text-align:center;
+padding-top:200px;
+padding-bottom:20px;
+height:150px;
+}
+
+/*左側コンテンツ*/
+div#left{
+display:inline;
+width:250px;
+float:left;
+border-radius:20px;
+margin:10px;
+}
+
+div#iconwap{
+text-align:center;
+}
+
+.icon{
+display:inline-block;
+margin:12px;
+}
+
+.icon a{
+color:#000000;
+}
+
+div#line{
+margin-bottom:10px
+}
+
+div#link{
+margin-bottom:10px
+}
+
+div#acecs{
+background-color:#ffffff;
+border:solid 1px #aaaaaa;
+margin-bottom:10px
+}
+
+div#acecs p{
+text-align:left;
+padding-left:10px;
+}
+
+/*右側コンテンツ*/
+
+div#right{
+width:910px;
+float:right;
+margin:10px;
+}
+
+/*div#news{
+background-color:#ffffff;
+margin-bottom:10px;
+border:solid 1px #aaaaaa;
+border-radius:20px;
+}
+
+
+div#news li{
+list-style-type:none;
+text-align:left;
+}*/
+
+.flex-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-box img {
+  vertical-align: top;
+}
+
+.thumnail-left-box {
+  width: 70%;
+  margin: 0;
+  padding: 0 0 2.5%;
+}
+
+.thumnail-left-box img {
+  width: 100%;
+}
+
+.thumnail-right-box {
+  width: 30%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.thumnail-right-box li {
+  display: flex;
+  flex-wrap: wrap;
+  width: 40%;
+  margin: 0 0 0 auto;
+}
+
+.thumnail-right-box li img {
+  width: 100%;
+  margin: 0 0 auto;
+}
+
+div#plan{
+background-color:#ffffff;
+border:solid 1px #aaaaaa;
+border-radius:20px;
+margin-bottom:10px;
+paddind:10px
+}
+
+div#plan img{
+padding:20px
+}
+
+div#plan p{
+padding:20px
+}
+
+div#main{
+background-color:#ffffff;
+margin-bottom:10px;
+paddind:10px
+}
+
+div#main img{
+padding:20px
+}
+
+div#main p{
+padding:20px
+}
+
+section{
+background-color:#ffffff;
+width:910px;
+}
+
+section h1{
+background-color:#aaaaaa;
+width:1200px;
+}
+
+section table{
+background-color:#ffffff;
+border:solid 1px #aaaaaa;
+width:910px;
+}
+section table th{
+background-color:#ffffff;
+border:solid 1px #aaaaaa;
+}
+
+section table td{
+background-color:#ffffff;
+border:solid 1px #aaaaaa;
+}
+
+section table ul{
+background-color:#ffffff;
+list-style-type:decimal;
+}
+
+
+/*フッター*/
+footer{
+width:1180px;
+text-align:left;
+padding:20px;
+clear:both;
+margin-top:15px;
+border-top:solid 1px #aaaaaa;
+}
+
