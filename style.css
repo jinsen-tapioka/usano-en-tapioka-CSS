@@ -76,19 +76,6 @@ float:right;
 margin:10px;
 }
 
-/*div#news{
-background-color:#ffffff;
-margin-bottom:10px;
-border:solid 1px #aaaaaa;
-border-radius:20px;
-}
-
-
-div#news li{
-list-style-type:none;
-text-align:left;
-}*/
-
 .flex-box {
   display: flex;
   flex-wrap: wrap;
